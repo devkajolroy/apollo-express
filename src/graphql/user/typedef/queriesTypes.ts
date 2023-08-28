@@ -1,5 +1,3 @@
-const queriesTypes = `
+export const queriesTypesOfUser = `
     getUser:User
 `;
-
-export default queriesTypes;

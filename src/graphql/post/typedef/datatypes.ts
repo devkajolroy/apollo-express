@@ -1,5 +1,5 @@
-export const datatypesOfUser = `
-        type User{
+export const datatypesOfPost = `
+        type Post{
             id:ID!
             name:String!
             email:String!

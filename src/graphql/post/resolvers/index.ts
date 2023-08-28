@@ -1,7 +1,7 @@
 import { prisma } from "../../../utils/prisma";
 
 const query = {
-  getUser: () => {
+  getPost: () => {
     return {
       id: "cdcdc",
       name: "cdcdc",
@@ -21,7 +21,7 @@ interface InputData {
   email: string;
 }
 const mutation = {
-  createUser: async (
+  createPost: async (
     _: any,
     { name, username, password, email }: InputData
   ) => {
@@ -32,7 +32,7 @@ const mutation = {
   },
 };
 
-export const UserResolver = {
+export const PostResolver = {
   mutation,
   query,
 };
